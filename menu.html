@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu coffee</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo"><i data-feather="coffee"></i>secangkir<span>coffee</span></a>
+
+        <div class="navbar-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Menu</a>
+            <a href="contact.html">Kontak</a>
+        </div>
+        <div class="navbar-extra">
+            <a href="#" id="search"> <i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart"> <i data-feather="shopping-cart"></i></a>
+            <a href="#" id="hamburger-menu"> <i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- menu section start -->
+    <section class="menu" id="menu">
+        <p>Rasakan berbagai varian kopi terbaik yang kami sajikan untuk Anda.</p>
+
+        <div class="row" id="menu-cards">
+           <!-- menu diisi disini oleh js -->
+        </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="socials">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Menu</a>
+            <a href="contact.html">Kontak</a>
+        </div>
+
+        <div class="credit">
+            <p>created by <a href="">AeidiMuttaqin</a>. | &copy;2024</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather icons -->
+    <script>
+        feather.replace();
+    </script>
+
+    <!-- my js -->
+     <script src="js/api.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
